@@ -1,0 +1,21 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+          "VITE_FIREBASE_API_KEY": "your_firebase_api_key_here",
+    "VITE_FIREBASE_AUTH_DOMAIN": "pulseai-blr.firebaseapp.com",
+    "VITE_FIREBASE_PROJECT_ID": "pulseai-blr",
+    "VITE_FIREBASE_STORAGE_BUCKET": "pulseai-blr.firebasestorage.app",
+    "VITE_FIREBASE_MESSAGING_SENDER_ID": "667492565745",
+    "VITE_FIREBASE_APP_ID": "1:667492565745:web:72e3dbdda197de1c299f50",
+    "VITE_FIREBASE_MEASUREMENT_ID": "G-8DDLBR7QWF",
+          "VITE_GOOGLE_MAPS_API_KEY": "your_google_maps_api_key_here"
+  }
+}
