@@ -2,7 +2,6 @@
 
 A modern, AI-powered city management platform that enables citizens to report city issues and administrators to manage them efficiently. Built with React, TypeScript, Firebase, and AI integration.
 
-![CityWatch Dashboard](https://via.placeholder.com/800x400/1e40af/ffffff?text=CityWatch+Dashboard)
 
 ## 🚀 Live Demo
 
