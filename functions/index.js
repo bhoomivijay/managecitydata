@@ -16,7 +16,7 @@ initializeApp();
 const geminiApiKey = defineSecret("GEMINI_API_KEY");
 
 // For development, you can also use a direct API key (not recommended for production)
-// const geminiApiKey = "AIzaSyB8H0hzSWA-dVtVzkxzYjK3iZrve1Zet_U";
+// const geminiApiKey = "your_gemini_api_key_here";
 
 // Define the Cloud Function
 exports.analyzeIncident = onDocumentCreated(
